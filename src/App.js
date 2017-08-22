@@ -1,10 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import Map from "./components/Map";
+import EpisodeRange from './components/EpisodeRange'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-          <h2>Welcome to React</h2>
+      <div>
+        <Map />
+        <EpisodeRange/>
       </div>
     );
   }
