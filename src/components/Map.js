@@ -12,7 +12,6 @@ export default class Map extends Component {
         border: "1px solid black"
       }
     });
-    console.log(css);
 
     return (
       <div className={css(classes.container)}>
